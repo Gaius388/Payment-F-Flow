@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="topSection">
+            <h1>Complete your Purchase</h1>
+            <nav>
+                <button class="tabLink" id="btn1"><a href="./index.html">Personal Info</a></button>
+                <button class="tabLink" id="btn2"><a href="./billing.html">Billing Info</a></button>
+                <button class="tabLink" id="btn3"><a href="./confirm.html">Confirm Payment</a></button>
+            </nav>
+        </header>
+        <main>   
+            <form class="form2 tabcontent" id="second">
+                <div class="test">
+                    <label class="info">Name on Card</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="test">
+                    <label class="info">Card Type</label>
+                    <select name="card" id="cardType" class="input">
+                        <option value="visa">Visa</option>
+                        <option value="masterCard">MasterCard</option>
+                        <option value="verve">Verve</option>
+                    </select>
+                </div>
+                <div class="split">
+                    <div class="test card1">
+                        <label class="info">Card details</label>
+                        <input type="text" class="input">
+                    </div>
+                    <div class="test card2">
+                        <label class="info">Expiry date</label>
+                        <input type="text" class="input ">
+                    </div>
+                    <div class="test card3">
+                        <label class="info">CVV</label>
+                        <input type="text" class="input">
+                    </div>
+                </div>
+            </form>
+            <div class="bottomSection">
+                <button type="submit" class="btn1">Next</button>
+                <a href="#">Cancel Payment</a>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

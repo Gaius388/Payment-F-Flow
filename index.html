@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="topSection">
+            <h1>Complete your Purchase</h1>
+            <nav>
+                <button class="tabLink" id="btn1"><a href="./index.html">Personal Info</a></button>
+                <button class="tabLink" id="btn2"><a href="./billing.html">Billing Info</a></button>
+                <button class="tabLink" id="btn3"><a href="./confirm.html">Confirm Payment</a></button>
+            </nav>
+        </header>
+        <main>
+            <form class="form1 tabcontent" id="first">
+                <div class="test">
+                    <label for="name" class="info">Name</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="test">
+                    <label for="email" class="info">Email Address *</label>
+                    <input type="email" class="input">
+                </div>
+                <div class="test">
+                    <label for="address" class="info">Address 1</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="test">
+                    <label for="address" class="info">Address 2</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="split">
+                    <div class="field">
+                        <label for="area" class="info">Local Government</label>
+                        <input type="text" class="input">
+                    </div>
+                    <div class="field1">
+                        <label for="name" class="info">State</label>
+                        <select name="state" id="state" class="input">
+                            <option value="lagos">Lagos</option>
+                            <option value="kwara">Kwara</option>
+                            <option value="Anambra">Anambra</option>
+                            <option value="kogi">Kogi</option>
+                            <option value="Oyo">Oyo</option>
+                            <option value="Kano">Kano</option>
+                        </select>
+                        <!-- <input type="state" class="input"> -->
+                    </div>
+                </div>
+                <div class="bottomSection">
+                    <button type="submit" class="btn1">Next</button>
+                    <a href="#">Cancel Payment</a>
+                </div>
+            </form>
+            <div class="container2 tabcontent third" id="third">
+                <div class="cont1">Item Name</div>
+                <div class="cont2">Price</div>
+                <div class="cont3">Data science and usability</div>
+                <div class="cont4">50,000.00</div>
+                <div class="cont5">Shipping</div>
+                <div class="cont6">0.00</div>
+                <div class="cont7">Total</div>
+                <div class="cont8">50,000.00</div>
+            </div>
+            <!-- <table class="table">
+                <tr>
+                    <td class="testing">Item Name</td>
+                    <td>₦ Price</td>
+                </tr>
+                <tr>
+                    <td>Data science and usability</td>
+                    <td>50,000.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>50,000.00</td>
+                </tr>
+            </table> -->
+        </main>
+    </div>
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>
